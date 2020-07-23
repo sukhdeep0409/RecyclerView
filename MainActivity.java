@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     public void recyclerViewConfig() {
 
         //Config for RV
-        recyclerView.findViewById(R.id.recyclerView);
+        recyclerView = findViewById(R.id.recyclerView);
         //performance
         recyclerView.setHasFixedSize(true);
 
