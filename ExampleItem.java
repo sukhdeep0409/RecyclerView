@@ -17,4 +17,14 @@ public class ExampleItem {
     public String getmText() {
         return mText;
     }
+    
+    public void setmImageResource(int ImageResource) {
+        mImageResource = ImageResource;
+    }
+    
+    public void setmText(int text) {
+        mText = text;
+    }
+    
+    
 }
